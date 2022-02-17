@@ -3,7 +3,9 @@
         {
             "name": "Xyris i686",
             "defines": [
-                "__i686__"
+                "__i686__",
+                "__xyris__",
+                "__kernel__"
             ],
             "compilerPath": "/usr/bin/gcc",
             "includePath": [
