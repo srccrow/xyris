@@ -217,7 +217,6 @@ env = Environment(
         '-ftest-coverage',
     ],
     CPPPATH=[
-        '#Tests',
         '#Kernel',
         '#Thirdparty',
     ],
