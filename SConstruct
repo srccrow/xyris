@@ -212,6 +212,7 @@ env = Environment(
     INSTALL_DIR='#Distribution/Tests',
     LIBPATH='$INSTALL_DIR',
     CXXFLAGS=[
+        '-std=c++20',
         '-fprofile-arcs',
         '-ftest-coverage',
     ],
@@ -221,6 +222,7 @@ env = Environment(
         '#Thirdparty',
     ],
     LINKFLAGS=[
+        '-flto=full',
         '--coverage',
         '-lstdc++',
         '-lgcov',
